@@ -1,0 +1,23 @@
+1.5) It appears that more movies are made these days. Also the most recent movies did not receive that much votes so far. 
+
+1.6)
+The lie factor is  one .This is because both the Size
+of effect (SOE) in data and size of Effect in graphic are same ( SoE(data) = SoE(graphic)) . Also in the case that the y-axis starts from 0. This means that the graph is not biased and exactly represents the relationships between data visually.
+
+1.7) We can see that low rated movies are more in the recent years compared with 1950s but a constant number of good movies can be observed.
+In the early years  there are few low rated movies than recent year movies, while the number of high rated movies seems to be remain constant. 
+
+1.8) The lowest scoring movies:
+
+title  					score
+Manos: The Hands of Fate (1966)    	1.5
+Superbabies: Baby Geniuses 2 (2004)    	1.5
+Daniel the Wizard (2004)    		1.5
+Ben & Arthur (2002)    			1.5
+Night Train to Mundo Fine (1966)    	1.5
+Monster a-Go Go (1965)    		1.5
+
+Highest scoring ones:
+title  					score
+The Shawshank Redemption (1994)    	9.2
+The Godfather (1972)    		9.2

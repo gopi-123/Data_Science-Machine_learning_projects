@@ -1,0 +1,16 @@
+
+exercise 1.4: 
+
+Exploitation aims at maximizing the reward given the environment that is already known. Exploration on the other hand aims at exploring the environment further. This may yield even more rewarding ways to reach the terminal state. By only exploiting it is likely that the maximal possible reward is never reach because only the currently most rewarding action is considered and no potentially more rewarding actions are explored. By only exploring the reward is not maximized at all. The environment is only explored.
+Q-Learning addresses the exploration-exploitation trade-off by allowing for policies that determine which action to take next given the current state. One such policy to balance exploration and exploitation is the epsilon-greedy policy. Based on the choice of epsilon it chooses an action that maximizes the reward with probability 1-epsilon or it chooses a random action with probability epsilon for the sake of exploration.
+
+
+exercise 1.5:
+
+The ε-greedy policy selects a random action with probability ε or the best known action with probability 1-ε. 
+
+
+The choice of epsilon determines how much emphasis is put on exploration or exploitation. If epsilon=0.5 the agent will equally likely choose to explore or exploit. At epsilon=1 the agent will always pick the random action and therefore explore its environment. If epsilon=0 the agent chooses to only maximize its’ reward.
+
+We can also interpret it as follows:
+With epsilon value set to 1  ,agent explore  its environment with 100% probability and exploit with 0% probability and  With epsilon value set to 0  agent exploit with 100% probability and exploration happens with 0% probability.
